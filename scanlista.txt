@@ -1,0 +1,37 @@
+# Nmap 7.92 scan initiated Tue Dec 14 14:54:46 2021 as: nmap -iL hosts.txt -p80,443 -v -oN scanlista.txt
+Nmap scan report for google.com (172.217.162.110)
+Host is up (0.014s latency).
+Other addresses for google.com (not scanned): 2800:3f0:4001:828::200e
+rDNS record for 172.217.162.110: gru14s07-in-f14.1e100.net
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for facebook.com (31.13.85.36)
+Host is up (0.013s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f105:83:face:b00c:0:25de
+rDNS record for 31.13.85.36: edge-star-mini-shv-01-gru2.facebook.com
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dyndns.com (162.88.175.1)
+Host is up (0.054s latency).
+rDNS record for 162.88.175.1: vip.web1-01-ussnn1.prod.dc.dyndns.com
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for globo.com (186.192.90.12)
+Host is up (0.014s latency).
+rDNS record for 186.192.90.12: 186-192-90-12.prt.globo.com
+
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Dec 14 14:54:50 2021 -- 4 IP addresses (4 hosts up) scanned in 3.68 seconds

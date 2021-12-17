@@ -1,0 +1,67 @@
+# Nmap 7.92 scan initiated Tue Dec 14 16:26:24 2021 as: nmap -sU -v -n -oN scan_metasploitable_udp.txt 172.20.0.5
+Increasing send delay for 172.20.0.5 from 50 to 100 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 172.20.0.5 from 100 to 200 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 172.20.0.5 from 200 to 400 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 172.20.0.5 from 400 to 800 due to 11 out of 15 dropped probes since last increase.
+Nmap scan report for 172.20.0.5
+Host is up (0.00065s latency).
+Not shown: 946 closed udp ports (port-unreach)
+PORT      STATE         SERVICE
+53/udp    open          domain
+68/udp    open|filtered dhcpc
+69/udp    open|filtered tftp
+111/udp   open          rpcbind
+137/udp   open          netbios-ns
+138/udp   open|filtered netbios-dgm
+139/udp   open|filtered netbios-ssn
+514/udp   open|filtered syslog
+682/udp   open|filtered xfr
+800/udp   open|filtered mdbs_daemon
+1001/udp  open|filtered unknown
+1027/udp  open|filtered unknown
+1029/udp  open|filtered solid-mux
+1045/udp  open|filtered fpitp
+1812/udp  open|filtered radius
+1813/udp  open|filtered radacct
+1900/udp  open|filtered upnp
+2049/udp  open          nfs
+2223/udp  open|filtered rockwell-csp2
+4672/udp  open|filtered rfa
+9199/udp  open|filtered unknown
+16974/udp open|filtered unknown
+17205/udp open|filtered unknown
+17424/udp open|filtered unknown
+17468/udp open|filtered unknown
+18081/udp open|filtered unknown
+18228/udp open|filtered unknown
+18821/udp open|filtered unknown
+18835/udp open|filtered unknown
+18958/udp open|filtered unknown
+19682/udp open|filtered unknown
+19935/udp open|filtered unknown
+20126/udp open|filtered unknown
+20876/udp open|filtered unknown
+21576/udp open|filtered unknown
+25280/udp open|filtered unknown
+26720/udp open|filtered unknown
+28973/udp open|filtered unknown
+29243/udp open|filtered unknown
+29823/udp open|filtered unknown
+31073/udp open|filtered unknown
+31337/udp open|filtered BackOrifice
+32774/udp open|filtered sometimes-rpc12
+34038/udp open|filtered unknown
+34577/udp open|filtered unknown
+36778/udp open|filtered unknown
+41308/udp open|filtered unknown
+42172/udp open|filtered unknown
+42557/udp open|filtered unknown
+43195/udp open|filtered unknown
+47765/udp open|filtered unknown
+49212/udp open|filtered unknown
+49262/udp open|filtered unknown
+51972/udp open|filtered unknown
+MAC Address: 08:00:27:A5:4F:4A (Oracle VirtualBox virtual NIC)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Dec 14 16:43:20 2021 -- 1 IP address (1 host up) scanned in 1015.82 seconds
